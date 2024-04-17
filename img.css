@@ -1,0 +1,21 @@
+#slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    margin-left:300px;
+  }
+
+  #btnStartStop, #btnNext, #btnPrev {
+    display: inline-block;
+    padding: 10px;
+    margin:100px;
+    cursor: pointer;
+  }
